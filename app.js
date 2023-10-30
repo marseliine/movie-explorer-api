@@ -45,7 +45,6 @@ const corsOptions = {
   origin: allowedCors,
   credentials: true,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  preflightContinue: false,
   allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept, Authorization',
 };
 
