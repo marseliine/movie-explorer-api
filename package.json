@@ -1,39 +1,38 @@
 {
   "name": "movies-explorer-api",
   "version": "1.0.0",
-  "description": "movies-explorer-api",
-  "main": "index.js",
+  "description": "Дипломный проект Яндекс.Практикум - movies-explorer-api",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "cross-env PORT=4000 nodemon app.js",
+    "dev": "nodemon app.js",
     "lint": "npx eslint ."
   },
+  "keywords": [],
   "author": "Solomatina Ekaterina",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "celebrate": "^15.0.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "express-rate-limit": "^6.7.0",
+    "express-rate-limit": "^6.9.0",
     "express-winston": "^4.2.0",
     "helmet": "^7.0.0",
-    "joi": "^17.9.2",
-    "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.3.0",
-    "validator": "^13.9.0",
+    "joy": "^0.1.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4",
+    "validator": "^13.11.0",
     "winston": "^3.10.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "eslint": "^8.43.0",
+    "@types/helmet": "^4.0.0",
+    "eslint": "^8.47.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "nodemon": "^2.0.22",
-    "prettier": "^2.8.8"
+    "nodemon": "^3.0.1"
   }
 }
