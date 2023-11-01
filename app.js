@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(requestLogger);
 app.use(cookieParser());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'http://api.yamovies.nomoredomainsicu.ru', 'https://api.yamovies.nomoredomainsicu.ru'],
+  origin: ['http://localhost:3000', 'http://localhost:3001', 'http://api.movies.marseliine.nomoredomainsrocks.ru', 'https://api.movies.marseliine.nomoredomainsrocks.ru'],
   credentials: true,
   maxAge: 30,
 }));
